@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pip3 install *)",
+      "Bash(python3 assets/generate_sticker.py)",
+      "Bash(ffmpeg -filters)",
+      "Bash(awk '{print $2}')",
+      "Bash(ffmpeg -version)",
+      "Bash(brew search *)",
+      "Bash(brew info *)",
+      "Bash(ffmpeg -y -f lavfi -i \"testsrc=duration=3:size=720x1280:rate=30\" -f lavfi -i \"sine=frequency=440:duration=3\" -c:v libx264 -crf 28 -c:a aac /tmp/test_input.mp4 -loglevel error)",
+      "Read(//tmp/**)",
+      "Bash(python3 -c ' *)",
+      "Bash(python3 -m py_compile streamlit_app.py)",
+      "Bash(chmod +x /Users/keno/unical/VideoUniq.command)",
+      "Read(//Users/keno/**)",
+      "Bash(echo \"\")",
+      "Bash(echo \"# VideoUniq launcher\")",
+      "Bash(echo \"alias unical='bash ~/unical/VideoUniq.command'\")",
+      "Bash(osascript)"
+    ]
+  }
+}
